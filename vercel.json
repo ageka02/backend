@@ -13,7 +13,7 @@
       },
         {
             "src": "/events",
-            "dest": "events.json"
+            "dest": "routes/events.js"
         }
     ]
   }
