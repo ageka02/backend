@@ -23,3 +23,7 @@ app.use((error, req, res, next) => {
 });
 
 app.listen(port, () => { console.log(`API listening on PORT ${port}`) } );
+
+app.get('/', (req, res) => {
+  res.send('Hey this is my API running 🥳')
+})
